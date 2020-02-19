@@ -1,0 +1,59 @@
+Hostel Management System
+
+Intro: Jain university Hostel management system is mainly for hostel out pass system. To reduce the manual work of filling and submitting out pass and also accepting out pass manually by warden our solution is hostel management system. 
+A project on hostel management system using My SQLite and php developed. Hostel management system divided into four parts.
+
+•	Admin
+•	Warden
+•	User(students)
+•	Guard
+
+
+Admin
+•	Login – This module is used for admin login.
+•	Dashboard – Admin dashboard related total students, total rooms, and total courses.
+•	Rooms- Admin can create rooms(seater, fees)(Add, edit and delete)[optionional]
+•	Students Registration- Admin can register student profile.
+•	Manage Student- (View and Delete)
+•	Manage wardens- can add or delete wardens and also manage wardens
+•	Manage guards- can add or delete guards 
+•	Admin Profile
+•	Change password
+•	Access log- admin can see user and warden login access details
+•	Logout
+
+Warden
+•	Login – This used for warden login.
+•	Dashboard – Warden Dashboard related total students, total rooms, accept out pass and reject outpass.
+•	Rooms- Warden can create rooms(seater, fees)(Add, edit and delete) [optional]
+•	Students Registration- Warden can register student profile.
+•	Manage Student- (View and Delete)
+•	Warden Profile
+•	Change password
+•	Logout
+
+User
+•	User Registration
+•	User login
+•	User forgot Password
+•	User Profile – User can update own profile after login
+•	Change Password – Allow user to change the password.
+•	Book Hostel – User can book own hostel [rooms / optional
+•	Out pass- user can submit out pass, generate qr code
+•	Hostel details : user can see own hostel details
+•	Access log : User can see own login access log
+•	logout
+
+Guard
+•	Login – This used for Guard login.
+•	Dashboard – Guard dashboard related total students, how many students went outside using out pass, scan qr code.
+•	Scanner- scan qr code of students to confirm valid out pass and time of left.
+•	Change password
+•	Logout
+
+Work flow- 
+A student can register to system or admin/ warden can add students. After register, student can submit out pass. After submit one out pass he cannot submit another out pass. One at a time out pass system. After that warden will get the out pass details, warden can accept or decline. If accept then it will generate a qr code. If declined then no qr code. 
+After getting qr code. Student can download that qr code or can show it online also to guards.
+Guards will scan the qr code and let them go through gate. If the qr code matches then only it will show accepted. (They can make fake qr code. So we have to match the qr code with the generated qr code.). 
+[NB- we have 2 sharing boys hostel (2 hostel), 2 sharing girls hostel (2 hostel), like that we have 4 sharing and 8 sharing hostel. and their hostel wardens are not same. So, only 2 sharing hostel students out pass will get 2 sharing warden, 8 sharing hostel warden will get 8 sharing hostel students out pass only. So warden will not confuse]
+Students also can book hostel rooms, 2 seater, 4 seater, and 8 seater. And admin will only manage that. 
