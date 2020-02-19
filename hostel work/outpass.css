@@ -1,0 +1,42 @@
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+.content-wrapper img {
+    width: 100%;
+}
+.text-wrapper{
+    width: 30%;
+    position: relative;
+    margin-top: -24%;
+    margin-left: 40%;
+  
+
+}
+
+.text-wrapper input{
+    
+    font-size: 150%;
+    line-height: 3em;
+    background: transparent;
+    border: none;
+
+}
+p {
+    color : white;
+    font-size: 120%;
+}
+::placeholder {
+    color: yellow;
+    opacity: 1;
+}
+button {
+    font-size:140%;
+    line-height:1em;
+   margin-top: 6%;
+   margin-left: 15%;
+   background: transparent;
+}
+button:hover{
+    background-color: white;
+}

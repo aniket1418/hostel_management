@@ -1,0 +1,100 @@
+body{
+  
+}
+
+.upper_menu img{
+  width: 130px;
+  height: auto;
+  margin: 15px 0px;
+}
+.menu{
+  margin: 8px 0px;
+  font-size: 14px;
+    padding-left: 30px;
+
+    }
+    
+
+@media(max-width:768px){
+    .menu{
+        width:auto;
+    }
+    .upper_menu{
+        width: auto;
+        padding-left: 150px;
+    }
+    .navbar-header{
+        padding-left: 150px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
+}
+ .image img{
+    width: 500px;
+    height: 500px;
+
+}
+article{
+  font-size: 25px;
+  padding: 60px;
+}
+.article_jgi h2{
+  text-align: center;
+
+}
+@media(max-width: 760px){
+  article{
+    width: auto;
+  }
+
+}
+footer{
+  background:grey;
+  
+}
+footer h6{
+    color: white;
+    font-size: 24px;
+    font-family: "open sans";
+    font-weight: bold;
+    padding-top: 32px;
+    margin-left: 60px;
+}
+footer ul li {
+    color: white;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 13px;
+    
+}
+footer ul li a{
+    color: white;
+
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #d1d3d6;
+}
+.location i{
+   font-size: 22px;
+   margin-left: 100px;
+}
+.contact i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.conatact ul li{
+    font-size: 50px;
+}
+.footer-get-info i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.footer-get-info{
+    margin-left: 30px;
+}

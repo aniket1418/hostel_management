@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+
+	<link rel="stylesheet" type="text/css" href="{{style_sheet}}">
+	<link rel="stylesheet" type="text/css" href="base_style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600i|Ubuntu+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Roboto+Mono:300" rel="stylesheet">
+	<!--{% if title %}
+	<title>{{title}} - SET-JU Hostel Management</title>
+	{% else %}-->
+	<title>SET-JU Hostel Management</title>
+	<link rel="icon" href="jgi.png">
+	<!--{% endif %}-->
+
+</head>
+<body>
+
+<nav>
+     	<div class="left">
+		<img src="logo.png" class="logo">
+	    </div>
+
+<div class="right">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT US</a>
+  <a href="#">APPLY OUTPASS</a>
+  <a href="#">OUTPASS HISTORY</a>
+  <a href="#">HOSTEL ROOM ALLOTEMENT</a>
+  <a href="#">HOSTEL PAYMENT</a>
+  <a href="#">CONTACT</a>
+  <a href="#">ALUMNI</a>
+  <a href="#">LOGOUT</a>
+  </div>
+
+<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</nav><hr>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+
+
+<div class="container">
+	<div class="slideshow">
+		<div class="image">
+			<img src="jggi.jpg">
+		</div>
+
+
+	</div>
+	<!--{% if%}
+	<div class="login">
+		<h1>LOGIN HERE</h1>
+		<div class="user2">
+			<img src="user.png">
+		</div>
+		<div class="log">
+			<form>
+				<label>USERNAME</label><br><br>
+				<input type="text" name="" placeholder=" ENTER USERNAME">
+				<label>PASSWORD</label><br><br>
+				<input type="password" name="" placeholder="ENTER PASSWORD">
+				<input type="button" name="" placeholder="submit" value="SUBMIT">
+
+		</div>
+		<div class="log2">
+	
+        <span class="psw">Forgot <a href="#">password?</a></span>
+	    </div>
+	</form>
+
+	</div>
+
+<!--{% else %}-->
+
+<div class="loged">
+	<marquee direction = "left">WELCOME TO JGI</marquee>
+	<div class="user2">
+		<img src="user.png">
+	</div>	
+	<div class="info_loged">
+        <p>ANIKET MEHTA<br><br>	17BTRCS029<br><br>3rd SEM</p>
+	    <button class="logout"><a href="#modal" class="loginLink">LOG OUT</a></button>
+	</div>
+</div> 
+<!-- CONDITION WILL END-->
+
+</div>
+
+
+
+<div class="intro">
+	<h3>WELCOME TO JAIN UNIVERSITY</h3>
+	<div class="campus">
+		<i class="fas fa-landmark" style="font-size: 84px;color: white; margin-left: 83px;margin-top: 20px; position: absolute;"></i>
+	   <p>&nbsp350+<br>ACRE</p>
+	</div>
+	<div class="doms">
+		<i class="fas fa-home"style="font-size: 84px;color: white; margin-left: 82px; margin-top: 20px;position: absolute;
+		"></i>
+		<p>&nbsp20+<br>HOSTELS</p>
+	</div>
+	<div class="student">
+		<i class="fas fa-user-graduate" style="font-size: 84px;color: white; margin-left: 87px; margin-top: 20px;position: absolute;"></i>
+		<p>8000<br>STUDENTS</p>
+	</div>
+</div>
+
+<div class="video">
+	<h4>HOW TO APPLY FOR OUTPASS</h4></h3>
+<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>
+</div>
+<div class="team">
+	<h3>OUR TEAM</h3>
+	<div class="sanjiban">
+		<div class="picture">
+		<img src="sanjiban.jpg" style="width: 270px;">
+		</div>
+		<p>SANJIBAN CHAKROBARTY</p>
+		<p style="font-size: 15px;">DEVELOPER</p>
+		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+	</div>
+	<div class="aniket">
+		<div class="picture">
+		<img src="anikeet.jpg" style="width: 270px;height: 230px">
+		</div>
+		<p>ANIKET MEHTA</p>
+		<p style="font-size: 15px;">DEVELOPER</p>
+		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+	</div>
+	<div class=vrishab>
+		<div class="picture">
+		<img src="vrishab2.jpg"style="width: 270px">
+		</div>
+		<p>VRISHAB JAIN</p>
+		<p style="font-size: 15px;">DEVELOPER</p>
+		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+	</div>
+	<div class="aashi">
+		<div class="picture">
+		<img src="aashi.jpg.">
+	     </div>
+		<p>ASHMITA JHA</p>
+		<p style="font-size: 15px;">DEVELOPER</p>
+		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+	</div>
+</div>
+</div>
+
+
+
+	
+<footer>
+  	<div class="footer-main">
+	<div class="footer-inner">
+		<div class="footer-wrapper">
+		<div class="footer-contact">
+		<h6>Contact</h6>
+		<ul>
+			<li><i class="fa fa-phone" aria-hidden="true"></i>+91-9606132131</li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i>+91-7602851077</li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i>+91-7418901000</li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i>+91-8296329113 </li>
+
+		</ul>	 
+		</div>
+	    </div>
+	    <div class="footer-wrapper">
+		<div class="footer-box">	
+		<h6>CAMPUS LOCATION</h6>
+		<ul>
+			<li><a href="https://www.google.com/maps/place/Jain+University+School+of+Engineering+%26+Technology/@12.6419365,77.4376241,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae5ba739694f47:0x424bdd92f039db75!8m2!3d12.6419313!4d77.4398128"><i class="fa fa-map-marker" aria-hidden="true"></i>SCHOOL OF ENGINEERING AND TECHNOLOGY,&nbsp JAIN, JAKASANDRA POST, RAMANAGARA DISTRICT, BANGALORE, KARNATAKA-562112</a></li>
+
+		</ul>	 
+		</div>
+	    </div>
+	    <div class="footer-wrapper">
+		<div class="footer-get-info">
+		<h6>GET IN TOUCH</h6>
+		<ul>
+			<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>FACEBOOK</a>   </li>
+			<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>TWITTER</a></li>
+			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>LINKED IN</a></li>
+			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>INSTAGRAM</a></li>
+			<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i>YOUTUBE</a></li>
+		</ul>	 
+		</div>
+	    </div>
+		<!--<div class="clr"></div>-->
+	</div>
+	<div class="tag"><p>&copy 2018 ALL RIGHTS RESERVED BY SET-JU HOSTEL MANAGEMENT</p><p>Powered by CODE BUDDIES AND GROUP</p></div>
+</div>
+	</footer>
+
+
+</body>
+</html> 	 	 	

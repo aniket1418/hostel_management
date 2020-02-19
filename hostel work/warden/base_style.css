@@ -1,0 +1,46 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background:#b0adce;                    /*#b0adce*/
+    width: 100%;
+    height: auto;
+	background-size:cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.text-wrapper{
+  
+  
+   width: 50%;
+    margin: 1% 0% 20% 0%;
+    margin-left: 20%;
+
+}
+
+.text-wrapper button{
+    
+    font-size: 100%;
+    background: grey;
+    border: 1px solid black;
+    margin-top: 7%;
+
+}
+
+
+button:hover{
+    background-color: white;
+}
+
+.frame iframe {
+    width: 70%;
+    height: 80%;
+
+ 
+   
+
+}

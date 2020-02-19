@@ -1,0 +1,146 @@
+    body{
+        margin: 0px;
+        padding:0px;    
+}
+
+.nav{
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-brand img{
+    width: 130px;
+    height: auto;
+    margin-top: -4px;
+}
+.menu{
+    margin: 8px 0px;
+    font-size: 14px;
+    padding-left: 30px;
+    }
+
+
+@media(max-width:768px){
+ 
+    .navbar-brand img{
+        float: right;
+
+    }
+ 
+    
+}
+
+
+
+   .image img{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.outpass-form {
+        width: 400px;
+        height:auto;
+        margin: 50px auto;
+    }
+    @media(max-width: 558px){
+        .outpass-form{
+            width: auto;
+        }
+    }
+ 
+    .outpass-form form {
+        margin-bottom: 15px;
+        height:auto;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .outpass-form h2 {
+        margin: 0 0 15px;
+        margin-top:1px;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+
+   .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+
+   .image img{
+    width: 500px;
+    height: 500px;
+
+}.outpass-form input{
+    text-align: center;
+}
+.outpass-form img{
+    width: 120px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.outpass-form .form-group img{
+    width: 120px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer{
+    background: grey;
+}
+footer h6{
+    color: white;
+    font-size: 24px;
+    font-family: "open sans";
+    font-weight: bold;
+    padding-top: 32px;
+    margin-left: 60px;
+}
+footer ul li {
+    color: white;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 13px;
+    
+}
+footer ul li a{
+    color: white;
+
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #d1d3d6;
+}
+.location i{
+   font-size: 22px;
+   margin-left: 100px;
+}
+.contact i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.conatact ul li{
+    font-size: 50px;
+}
+.footer-get-info i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.footer-get-info{
+    margin-left: 30px;
+}

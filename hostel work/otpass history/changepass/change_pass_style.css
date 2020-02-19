@@ -1,0 +1,56 @@
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+.content-wrapper img {
+    width: 100%;
+}
+.text-wrapper{
+    width: 30%;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 35%;
+  
+
+}
+
+.text-wrapper input{
+    
+    font-size: 130%;
+    line-height: 1em;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+p {
+    color : white;
+    font-size: 150%;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+
+}
+button {
+    font-size:140%;
+    line-height:2em;
+    width: 4em;
+   margin-top: 6%;
+   margin-left:28%;
+   background: transparent;
+   border-radius: 30%;
+}
+button:hover{
+    background-color: grey;
+}
+.text-wrapper span{
+    color: red;
+    display: flex;
+}
+h1{
+    color: red;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 33%;
+}
